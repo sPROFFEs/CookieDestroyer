@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Variables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Elementos a modificar</h1>
+    <p>Introduce las clases y/o id a eliminar</p>
+    <p>Recuerda NO agregar las comillas</p>
+
+    <div id="camposVariables">
+        <!-- Campos de entrada para variables iniciales -->
+        <div>
+            <label for="variable1">Variable 1:</label>
+            <input type="text" class="variable" value="">
+        </div>
+        <div>
+            <label for="variable2">Variable 2:</label>
+            <input type="text" class="variable" value="">
+        </div>
+    </div>
+
+    <button id="add">Añadir</button>
+    <button id="save">Guardar</button>
+    <button id="delete">Eliminar TODO</button>
+
+    <div id="variablesGuardadas">
+        <h2>Variables Guardadas</h2>
+        <!-- Mostrar variables guardadas dinámicamente -->
+    </div>
+
+    <script src="variables.js"></script>
+    <script src="content.js"></script>
+</body>
+
+</html>

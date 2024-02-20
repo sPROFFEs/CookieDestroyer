@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "CookieBLK",
+    "version": "1.0",
+    "description": "Elimina popups de cookies",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "icons": {
+        "48": "icon.png"
+      },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "index.html",
+                "variables.js",
+                "popup.js",
+                "app.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
