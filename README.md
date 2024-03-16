@@ -9,3 +9,5 @@ Removes cookie popups or similar by modifying the CSS and HTML
     Functionality: Basic and functional, more like a personal project
     Contributions: Feel free to modify or enhance the code; it is very basic. The original code is available on GitHub under the profile pr0ff3; please add your changes there.
     https://github.com/sPROFFEs
+
+https://addons.mozilla.org/en-US/firefox/addon/cookiedestroyer/
